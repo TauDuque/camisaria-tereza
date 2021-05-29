@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useContext, useEffect, useReducer } from "react";
 import reducer from "../reducers/products_reducer";
+import { teresaproducts } from "../utils/teresa-products";
 import { products_url as url } from "../utils/constants";
 import {
   SIDEBAR_OPEN,
@@ -39,8 +40,8 @@ export const ProductsProvider = ({ children }) => {
   const fetchProducts = async (url) => {
     dispatch({ type: GET_PRODUCTS_BEGIN });
     try {
-      const response = await axios.get(url);
-      const products = response.data;
+      const products = teresaproducts;
+      console.log(products);
       dispatch({ type: GET_PRODUCTS_SUCCESS, payload: products });
     } catch (error) {
       dispatch({ type: GET_PRODUCTS_ERROR });

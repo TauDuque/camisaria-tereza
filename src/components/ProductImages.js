@@ -1,12 +1,5 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import {
-  Kimono1_1,
-  Kimono1_2,
-  Kimono1_3,
-  Kimono1_4,
-  Kimono1_5,
-} from "../assets";
 import { teresa_single_products } from "../utils/teresa-single-products";
 console.log(teresa_single_products);
 console.log(teresa_single_products[0]);

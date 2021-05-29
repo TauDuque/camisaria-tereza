@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useParams, useHistory } from "react-router-dom";
 import { useProductsContext } from "../context/products_context";
-import { single_product_url as url } from "../utils/constants";
+import { teresa_single_products as url } from "../utils/teresa-single-products";
 import { formatPrice } from "../utils/helpers";
 import {
   Loading,

@@ -67,7 +67,7 @@ export const teresaproducts = [
     price: 25999,
     image: BataCanga1_1,
     colors: ["#ff0000", "#00ff00", "#0000ff"],
-    company: "marcos",
+    tecido: "lã",
     description:
       "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
     category: "office",
@@ -79,7 +79,7 @@ export const teresaproducts = [
     price: 109999,
     image: BataCanga1_2,
     colors: ["#000", "#ffb900"],
-    company: "liddy",
+    tecido: "linho",
     description:
       "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
     category: "living room",
@@ -90,7 +90,7 @@ export const teresaproducts = [
     price: 309999,
     image: Infantil1_1,
     colors: ["#ffb900", "#0000ff"],
-    company: "liddy",
+    tecido: "linho",
     description:
       "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
     category: "kitchen",
@@ -101,7 +101,7 @@ export const teresaproducts = [
     price: 12599,
     image: Infantil2_1,
     colors: ["#000", "#00ff00", "#0000ff"],
-    company: "marcos",
+    tecido: "lã",
     description:
       "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
     category: "bedroom",
@@ -113,7 +113,7 @@ export const teresaproducts = [
     price: 4099,
     image: Camisa_1,
     colors: ["#000"],
-    company: "liddy",
+    tecido: "linho",
     description:
       "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
     category: "dining",
@@ -125,7 +125,7 @@ export const teresaproducts = [
     price: 42999,
     image: Camisa_2,
     colors: ["#00ff00", "#0000ff", "#ff0000"],
-    company: "ikea",
+    tecido: "algodão",
     description:
       "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
     category: "dining",
@@ -137,7 +137,7 @@ export const teresaproducts = [
     price: 23999,
     image: Kimono1_1,
     colors: ["#0000ff", "#000"],
-    company: "ikea",
+    tecido: "algodão",
     description:
       "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
     category: "bedroom",
@@ -150,7 +150,7 @@ export const teresaproducts = [
     image: Kimono2_1,
     featured: true,
     colors: ["#000", "#ff0000"],
-    company: "caressa",
+    tecido: "malha",
     description:
       "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
     category: "living room",
@@ -163,7 +163,7 @@ export const teresaproducts = [
     image: Saia_1,
     featured: true,
     colors: ["#000", "#00ff00"],
-    company: "ikea",
+    tecido: "algodão",
     description:
       "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
     category: "office",
@@ -175,7 +175,7 @@ export const teresaproducts = [
     price: 20099,
     image: Saia_2,
     colors: ["#ff0000", "#ffb900", "#00ff00"],
-    company: "caressa",
+    tecido: "malha",
     description:
       "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
     category: "bedroom",
@@ -186,7 +186,7 @@ export const teresaproducts = [
     price: 99999,
     image: Vestido1_1,
     colors: ["#00ff00", "#0000ff"],
-    company: "caressa",
+    tecido: "malha",
     description:
       "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
     category: "office",
@@ -198,7 +198,7 @@ export const teresaproducts = [
     image: Vestido2_1,
     featured: true,
     colors: ["#ffb900", "#ff0000", "#00ff00"],
-    company: "caressa",
+    tecido: "malha",
     description:
       "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
     category: "kids",
@@ -209,7 +209,7 @@ export const teresaproducts = [
     price: 3099,
     image: Vestido3_1,
     colors: ["#000"],
-    company: "liddy",
+    tecido: "linho",
     description:
       "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
     category: "living room",
@@ -221,7 +221,7 @@ export const teresaproducts = [
     price: 30999,
     image: Vestido4_1,
     colors: ["#00ff00"],
-    company: "ikea",
+    tecido: "algodão",
     description:
       "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
     category: "living room",
@@ -232,7 +232,7 @@ export const teresaproducts = [
     price: 109999,
     image: Infantil3_1,
     colors: ["#0000ff"],
-    company: "liddy",
+    tecido: "linho",
     description:
       "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
     category: "living room",
@@ -244,7 +244,7 @@ export const teresaproducts = [
     price: 129999,
     image: BataCanga2_1,
     colors: ["#00ff00", "#ffb900"],
-    company: "marcos",
+    tecido: "lã",
     description:
       "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
     category: "living room",
@@ -256,7 +256,7 @@ export const teresaproducts = [
     price: 15999,
     image: Camisa_5,
     colors: ["#ffb900"],
-    company: "caressa",
+    tecido: "malha",
     description:
       "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
     category: "office",
@@ -268,7 +268,7 @@ export const teresaproducts = [
     image: Kimono2_4,
     featured: true,
     colors: ["#ff0000", "#00ff00"],
-    company: "liddy",
+    tecido: "linho",
     description:
       "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
     category: "living room",
@@ -280,7 +280,7 @@ export const teresaproducts = [
     image: Infantil3_3,
     featured: true,
     colors: ["#ff0000"],
-    company: "marcos",
+    tecido: "lã",
     description:
       "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
     category: "office",
@@ -291,7 +291,7 @@ export const teresaproducts = [
     price: 250099,
     image: Saia_4,
     colors: ["#000", "#ffb900"],
-    company: "ikea",
+    tecido: "algodão",
     description:
       "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
     category: "bedroom",
@@ -302,7 +302,7 @@ export const teresaproducts = [
     price: 150999,
     image: Kimono1_4,
     colors: ["#000"],
-    company: "ikea",
+    tecido: "algodão",
     description:
       "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
     category: "office",
@@ -314,7 +314,7 @@ export const teresaproducts = [
     price: 40099,
     image: Vestido2_3,
     colors: ["#0000ff", "#00ff00"],
-    company: "ikea",
+    tecido: "algodão",
     description:
       "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
     category: "office",
@@ -326,7 +326,7 @@ export const teresaproducts = [
     image: Vestido3_3,
     featured: true,
     colors: ["#ffb900", "#ff0000"],
-    company: "caressa",
+    tecido: "malha",
     description:
       "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
     category: "kitchen",

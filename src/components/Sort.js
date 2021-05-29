@@ -8,6 +8,8 @@ const Sort = () => {
     grid_view,
     setGridView,
     setListView,
+    sort,
+    updateSort,
   } = useFilterContext();
   return (
     <Wrapper>
@@ -30,7 +32,13 @@ const Sort = () => {
       <hr />
       <form>
         <label htmlFor="sort"> sort by</label>
-        <select name="sort" id="sort" className="sort-input">
+        <select
+          name="sort"
+          id="sort"
+          className="sort-input"
+          value={sort}
+          onChange={updateSort}
+        >
           <option value="price-lowest"> price (lowest)</option>
           <option value="price-highest"> price (highest)</option>
           <option value="name-a"> name (a-z)</option>
@@ -94,8 +102,10 @@ const Wrapper = styled.section`
 
   .sort-input {
     border-color: transparent;
+    background-color: floralwhite;
     font-size: 1rem;
     text-transform: capitalize;
+    margin-left: 5px;
     padding: 0.25rem 0.5rem;
   }
   label {

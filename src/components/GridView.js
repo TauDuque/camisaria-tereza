@@ -2,13 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import products_reducer from "../reducers/products_reducer";
 import Product from "./Product";
-import { teresaproducts } from "../utils/teresa-products";
 
-const GridView = () => {
+const GridView = ({ products }) => {
   return (
     <Wrapper>
       <div className="products-container">
-        {teresaproducts.map((product) => {
+        {products.map((product) => {
           return <Product key={product.id} {...product} />;
         })}
       </div>

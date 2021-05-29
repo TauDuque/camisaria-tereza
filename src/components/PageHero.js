@@ -16,10 +16,6 @@ const PageHero = ({ title, product }) => {
 };
 
 const Wrapper = styled.section`
-  background-image: url(${bg_pattern3});
-  background-repeat-y: repeat;
-  background-size: contain;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.35);
   width: 97.8%;
   min-height: 12vh;
   margin: 10px 15px;
@@ -29,7 +25,7 @@ const Wrapper = styled.section`
   color: var(--clr-primary-1);
   h3,
   a {
-    color: var(--clr-white);
+    color: var(--clr-black);
     padding: 0.5rem;
     transition: var(--transition);
   }
@@ -37,5 +33,10 @@ const Wrapper = styled.section`
     color: var(--clr-primary-1);
   }
 `;
+
+/*  background-image: url(${bg_pattern3});
+  background-repeat-y: repeat;
+  background-size: contain;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.35); */
 
 export default PageHero;
