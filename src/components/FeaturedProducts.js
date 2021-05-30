@@ -41,7 +41,7 @@ const Wrapper = styled.section`
     display: grid;
     gap: 2.5rem;
     img {
-      height: 225px;
+      height: 350px;
     }
   }
   .btn {
@@ -52,6 +52,7 @@ const Wrapper = styled.section`
   }
   @media (min-width: 576px) {
     .featured {
+      margin: 4rem 8rem;
       grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
     }
   }

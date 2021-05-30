@@ -2,7 +2,8 @@ import axios from "axios";
 import React, { useContext, useEffect, useReducer } from "react";
 import reducer from "../reducers/products_reducer";
 import { teresaproducts } from "../utils/teresa-products";
-import { products_url as url } from "../utils/constants";
+import { teresa_single_products } from "../utils/teresa-single-products";
+
 import {
   SIDEBAR_OPEN,
   SIDEBAR_CLOSE,
@@ -37,22 +38,20 @@ export const ProductsProvider = ({ children }) => {
     dispatch({ type: SIDEBAR_CLOSE });
   };
 
-  const fetchProducts = async (url) => {
+  const fetchProducts = async (teresaproducts) => {
     dispatch({ type: GET_PRODUCTS_BEGIN });
     try {
       const products = teresaproducts;
-      console.log(products);
       dispatch({ type: GET_PRODUCTS_SUCCESS, payload: products });
     } catch (error) {
       dispatch({ type: GET_PRODUCTS_ERROR });
     }
   };
 
-  const fetchSingleProduct = async (url) => {
+  const fetchSingleProduct = async () => {
     dispatch({ type: GET_SINGLE_PRODUCT_BEGIN });
     try {
-      const response = await axios.get(url);
-      const singleProduct = response.data;
+      const singleProduct = teresa_single_products;
       dispatch({ type: GET_SINGLE_PRODUCT_SUCCESS, payload: singleProduct });
     } catch (error) {
       dispatch({ type: GET_SINGLE_PRODUCT_ERROR });
@@ -60,7 +59,7 @@ export const ProductsProvider = ({ children }) => {
   };
 
   useEffect(() => {
-    fetchProducts(url);
+    fetchProducts(teresaproducts);
   }, []);
 
   return (

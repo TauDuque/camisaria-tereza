@@ -22,6 +22,7 @@ const Product = ({ image, name, price, id }) => {
 };
 
 const Wrapper = styled.article`
+  width: 290px;
   .container {
     position: relative;
     background: var(--clr-black);

@@ -63,7 +63,7 @@ import {
 export const teresaproducts = [
   {
     id: "recZkNf2kwmdBcqd0",
-    name: "accent chair",
+    name: "Bata canga",
     price: 25999,
     image: BataCanga1_1,
     colors: ["#ff0000", "#00ff00", "#0000ff"],
@@ -75,7 +75,7 @@ export const teresaproducts = [
   },
   {
     id: "recEHmzvupvT8ZONH",
-    name: "albany sectional",
+    name: "Bata canga",
     price: 109999,
     image: BataCanga1_2,
     colors: ["#000", "#ffb900"],
@@ -86,7 +86,7 @@ export const teresaproducts = [
   },
   {
     id: "rec5NBwZ5zCD9nfF0",
-    name: "albany table",
+    name: "Camisa Infantil",
     price: 309999,
     image: Infantil1_1,
     colors: ["#ffb900", "#0000ff"],
@@ -97,7 +97,7 @@ export const teresaproducts = [
   },
   {
     id: "recd1jIVIEChmiwhe",
-    name: "armchair",
+    name: "Camisa Infantil",
     price: 12599,
     image: Infantil2_1,
     colors: ["#000", "#00ff00", "#0000ff"],
@@ -109,7 +109,7 @@ export const teresaproducts = [
   },
   {
     id: "recoM2MyHJGHLVi5l",
-    name: "bar stool",
+    name: "Camisa estampada",
     price: 4099,
     image: Camisa_1,
     colors: ["#000"],
@@ -121,7 +121,7 @@ export const teresaproducts = [
   },
   {
     id: "recotY5Nh00DQFdkm",
-    name: "dining table",
+    name: "Camisa estampada",
     price: 42999,
     image: Camisa_2,
     colors: ["#00ff00", "#0000ff", "#ff0000"],
@@ -133,7 +133,7 @@ export const teresaproducts = [
   },
   {
     id: "rec1Ntk7siEEW9ha1",
-    name: "emperor bed",
+    name: "Kimono",
     price: 23999,
     image: Kimono1_1,
     colors: ["#0000ff", "#000"],
@@ -145,7 +145,7 @@ export const teresaproducts = [
   },
   {
     id: "recNZ0koOqEmilmoz",
-    name: "entertainment center",
+    name: "Kimono",
     price: 59999,
     image: Kimono2_1,
     featured: true,
@@ -158,7 +158,7 @@ export const teresaproducts = [
   },
   {
     id: "recrfxv3EwpvJwvjq",
-    name: "high-back bench",
+    name: "Saia",
     price: 39999,
     image: Saia_1,
     featured: true,
@@ -171,7 +171,7 @@ export const teresaproducts = [
   },
   {
     id: "recoW8ecgjtKx2Sj2",
-    name: "leather chair",
+    name: "Saia",
     price: 20099,
     image: Saia_2,
     colors: ["#ff0000", "#ffb900", "#00ff00"],
@@ -182,7 +182,7 @@ export const teresaproducts = [
   },
   {
     id: "recEOA6qtDag1hRbU",
-    name: "leather sofa",
+    name: "Vestido",
     price: 99999,
     image: Vestido1_1,
     colors: ["#00ff00", "#0000ff"],
@@ -193,7 +193,7 @@ export const teresaproducts = [
   },
   {
     id: "recoAJYUCuEKxcPSr",
-    name: "modern bookshelf",
+    name: "Vestido",
     price: 31999,
     image: Vestido2_1,
     featured: true,
@@ -205,7 +205,7 @@ export const teresaproducts = [
   },
   {
     id: "recQ0fMd8T0Vk211E",
-    name: "modern poster",
+    name: "Vestido",
     price: 3099,
     image: Vestido3_1,
     colors: ["#000"],
@@ -217,7 +217,7 @@ export const teresaproducts = [
   },
   {
     id: "rec7CjDWKRgNQtrKe",
-    name: "shelf",
+    name: "Vestido",
     price: 30999,
     image: Vestido4_1,
     colors: ["#00ff00"],
@@ -228,7 +228,7 @@ export const teresaproducts = [
   },
   {
     id: "recF0KpwlkF7e8kXO",
-    name: "simple chair",
+    name: "Vestido Infantil",
     price: 109999,
     image: Infantil3_1,
     colors: ["#0000ff"],
@@ -240,7 +240,7 @@ export const teresaproducts = [
   },
   {
     id: "recs5BSVU3qQrOj4E",
-    name: "sofa set",
+    name: "Bata Canga",
     price: 129999,
     image: BataCanga2_1,
     colors: ["#00ff00", "#ffb900"],
@@ -252,7 +252,7 @@ export const teresaproducts = [
   },
   {
     id: "recroK1VD8qVdMP5H",
-    name: "suede armchair",
+    name: "Camisa estampada",
     price: 15999,
     image: Camisa_5,
     colors: ["#ffb900"],
@@ -263,7 +263,7 @@ export const teresaproducts = [
   },
   {
     id: "rec7JInsuCEHgmaGe",
-    name: "utopia sofa",
+    name: "Kimono",
     price: 79999,
     image: Kimono2_4,
     featured: true,
@@ -275,7 +275,7 @@ export const teresaproducts = [
   },
   {
     id: "rec3jeKnhInKHJuz2",
-    name: "vase table",
+    name: "Vestido Infantil",
     price: 120999,
     image: Infantil3_3,
     featured: true,
@@ -287,7 +287,7 @@ export const teresaproducts = [
   },
   {
     id: "recv2ohxljlK2FZO7",
-    name: "wooden bed",
+    name: "Saia",
     price: 250099,
     image: Saia_4,
     colors: ["#000", "#ffb900"],
@@ -298,7 +298,7 @@ export const teresaproducts = [
   },
   {
     id: "recJIjREF3dlFi3sR",
-    name: "wooden desk",
+    name: "Kimono",
     price: 150999,
     image: Kimono1_4,
     colors: ["#000"],
@@ -310,7 +310,7 @@ export const teresaproducts = [
   },
   {
     id: "recm7wC8TBVdU9oEL",
-    name: "wooden desk",
+    name: "Vestido",
     price: 40099,
     image: Vestido2_3,
     colors: ["#0000ff", "#00ff00"],
@@ -321,7 +321,7 @@ export const teresaproducts = [
   },
   {
     id: "rectfNsySwAJeWDN2",
-    name: "wooden table",
+    name: "Vestido",
     price: 234999,
     image: Vestido3_3,
     featured: true,

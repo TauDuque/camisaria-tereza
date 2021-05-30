@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { teresa_single_products } from "../utils/teresa-single-products";
-console.log(teresa_single_products);
-console.log(teresa_single_products[0]);
 const ProductImages = () => {
   const [main, setMain] = useState(teresa_single_products[0]);
   return (
@@ -10,7 +8,6 @@ const ProductImages = () => {
       <img src={main.url} alt="main" className="main" />
       <div className="gallery">
         {teresa_single_products.map((image, index) => {
-          console.log(teresa_single_products.url);
           return (
             <img
               src={image.url}

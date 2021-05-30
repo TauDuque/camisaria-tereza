@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useParams, useHistory } from "react-router-dom";
 import { useProductsContext } from "../context/products_context";
-import { teresa_single_products as url } from "../utils/teresa-single-products";
+import teresaproducts from "../utils/teresa-products";
 import { formatPrice } from "../utils/helpers";
 import {
   Loading,
@@ -13,6 +13,7 @@ import {
 } from "../components";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import products_reducer from "../reducers/products_reducer";
 
 const SingleProductPage = () => {
   const { id } = useParams();
@@ -25,7 +26,7 @@ const SingleProductPage = () => {
   } = useProductsContext();
 
   useEffect(() => {
-    fetchSingleProduct(`${url}${id}`);
+    fetchSingleProduct(`products/${id}`);
   }, [id]);
 
   useEffect(() => {
@@ -53,9 +54,10 @@ const SingleProductPage = () => {
     company,
     images,
   } = product;
+  console.log(product);
   return (
     <Wrapper>
-      <PageHero title={name} product />
+      <PageHero title="Kimono" product />;
       <div className="section section-center page">
         <Link to="/products" className="btn">
           back to products
@@ -63,21 +65,26 @@ const SingleProductPage = () => {
         <div className="product-center">
           <ProductImages images={images} />
           <section className="content">
-            <h2>{name}</h2>
+            <h2>Kimono</h2>
             <Stars stars={stars} reviews={reviews} />
-            <h5 className="price">{formatPrice(price)} </h5>
-            <p className="desc">{description}</p>
-            <p className="info">
+            <h5 className="price">200,00 </h5>
+            <p className="desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              corrupti eos a reprehenderit necessitatibus voluptatum eligendi
+              facilis voluptas. At blanditiis unde, atque distinctio praesentium
+              ipsam?
+            </p>
+            {/*  <p className="info">
               <span>Available : </span>
               {stock > 0 ? "In stock" : "out of stock"}
             </p>
             <p className="info">
               <span>SKU : </span>
               {sku}
-            </p>
+            </p> */}
             <p className="info">
-              <span>Brand : </span>
-              {company}
+              <span>Tecido : </span>
+              Linho
             </p>
             <hr />
             {stock > 0 && <AddToCart product={product} />}

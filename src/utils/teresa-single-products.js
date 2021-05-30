@@ -13,6 +13,7 @@ export const teresa_single_products = [
     filename: "product-4.jpeg",
     size: 49641,
     type: "image/jpeg",
+    name: "Kimono",
   },
   {
     id: "attaeT2Dex98o2jfW",
@@ -20,6 +21,7 @@ export const teresa_single_products = [
     filename: "extra-1.jpeg",
     size: 102108,
     type: "image/jpeg",
+    name: "Kimono",
   },
   {
     id: "attWsZasaaRD1P7mm",
@@ -27,6 +29,7 @@ export const teresa_single_products = [
     filename: "extra-2.jpeg",
     size: 84418,
     type: "image/jpeg",
+    name: "Kimono",
   },
   {
     id: "attTvaiDcADaAItLw",
@@ -34,6 +37,7 @@ export const teresa_single_products = [
     filename: "extra-3.jpeg",
     size: 107838,
     type: "image/jpeg",
+    name: "Kimono",
   },
   {
     id: "attdxQmF0aCH5I32F",
@@ -41,5 +45,6 @@ export const teresa_single_products = [
     filename: "extra-4.jpeg",
     size: 99481,
     type: "image/jpeg",
+    name: "Kimono",
   },
 ];
