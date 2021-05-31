@@ -31,10 +31,9 @@ const Wrapper = styled.div`
   width: 225px;
 
   .cart-btn {
-    color: var(--clr-grey-1);
+    color: var(--clr-white);
     font-size: 1.5rem;
     letter-spacing: var(--spacing);
-    color: var(--clr-grey-1);
     display: flex;
 
     align-items: center;
@@ -70,7 +69,7 @@ const Wrapper = styled.div`
     border-color: transparent;
     font-size: 1.5rem;
     cursor: pointer;
-    color: var(--clr-grey-1);
+    color: var(--clr-white);
     letter-spacing: var(--spacing);
     svg {
       margin-left: 5px;

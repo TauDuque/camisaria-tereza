@@ -39,13 +39,13 @@ const Nav = () => {
 };
 
 const NavContainer = styled.nav`
-  height: 5rem;
+  height: 7rem;
   display: flex;
   align-items: center;
   justify-content: center;
 
   .nav-center {
-    background: var(--logo-clr-5-2);
+    background: var(--sch-clr-13);
     height: 100px;
     width: 99vw;
     margin: 0 15px;
@@ -58,7 +58,7 @@ const NavContainer = styled.nav`
       height: 75px;
       width: 175px;
       margin-left: 40px;
-      margin-top: 15px;
+      margin-top: 2px;
       object-fit: cover;
     }
   }
@@ -93,7 +93,7 @@ const NavContainer = styled.nav`
         margin: 0 0.5rem;
       }
       a {
-        color: var(--clr-black);
+        color: var(--clr-white);
         font-size: 1rem;
         text-transform: capitalize;
         letter-spacing: var(--spacing);

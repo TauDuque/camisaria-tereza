@@ -35,13 +35,14 @@ const FeaturedProducts = () => {
 };
 
 const Wrapper = styled.section`
-  background: var(--clr-grey-10);
+  background: var(--sch-clr-3);
   .featured {
     margin: 4rem auto;
     display: grid;
     gap: 2.5rem;
     img {
       height: 350px;
+      box-shadow: var(--dark-shadow);
     }
   }
   .btn {

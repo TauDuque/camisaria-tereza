@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <Wrapper>
       <div className="section-center">
-        <h3>Join our newsletter and get 20% off</h3>
+        <h3>Inscreva-se na nossa newsletter e receba todas novidades</h3>
         <div className="content">
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
@@ -16,10 +16,10 @@ const Contact = () => {
             <input
               type="email"
               className="form-input"
-              placeholder="enter email"
+              placeholder="digite seu email"
             />
             <button type="submit" className="submit-btn">
-              subscribe
+              enviar
             </button>
           </form>
         </div>
@@ -48,7 +48,7 @@ const Wrapper = styled.section`
   .submit-btn {
     font-size: 1rem;
     padding: 0.5rem 1rem;
-    border: 2px solid var(--clr-black);
+    border: 2px solid var(--clr-green-dark);
   }
   .form-input {
     border-right: none;
@@ -65,12 +65,13 @@ const Wrapper = styled.section`
     text-transform: capitalize;
   }
   .submit-btn {
-    background: var(--clr-primary-5);
+    background-color: var(--sch-clr-8);
+    color: var(--clr-green-dark);
+    border-color: var(--clr-green-dark);
     text-transform: capitalize;
     letter-spacing: var(--spacing);
     cursor: pointer;
     transition: var(--transition);
-    color: var(--clr-black);
   }
   .submit-btn:hover {
     color: var(--clr-white);

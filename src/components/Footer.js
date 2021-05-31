@@ -4,8 +4,8 @@ const Footer = () => {
   return (
     <Wrapper>
       <h5>&copy; {new Date().getFullYear()}</h5>
-      <span> ComfySloth</span>
-      <h5>All rights reserved</h5>
+      <span> Camisaria Tereza</span>
+      {/* <h5></h5> */}
     </Wrapper>
   );
 };
@@ -16,7 +16,7 @@ const Wrapper = styled.footer`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: var(--clr-black);
+  background: var(--logo-clr-8);
   text-align: center;
   span {
     color: var(--clr-primary-5);

@@ -1,7 +1,9 @@
 import React from "react";
-import { GiCompass, GiDiamondHard, GiStabbedNote } from "react-icons/gi";
+import { GiCompass, GiDiamondHard, GiSewingNeedle } from "react-icons/gi";
+import { GiLoincloth } from "react-icons/gi";
 import camisas from "../assets/camisas.jpg";
 import saias from "../assets/saias.jpg";
+import { ImScissors } from "react-icons/im";
 import infantil from "../assets/5-infantil-1.jpg";
 export const links = [
   {
@@ -24,19 +26,20 @@ export const links = [
 export const services = [
   {
     id: 1,
-    icon: <GiCompass />,
-    title: "missão",
+    icon: <ImScissors />,
+    title: "conteito",
     text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi",
+   
   },
   {
     id: 2,
-    icon: <GiDiamondHard />,
+    icon: <GiSewingNeedle />,
     title: "visão",
     text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi",
   },
   {
     id: 3,
-    icon: <GiStabbedNote />,
+    icon: <GiLoincloth />,
     title: "historia",
     text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi",
   },

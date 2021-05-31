@@ -60,12 +60,12 @@ const SingleProductPage = () => {
       <PageHero title="Kimono" product />;
       <div className="section section-center page">
         <Link to="/products" className="btn">
-          back to products
+          voltar sessão roupas
         </Link>
         <div className="product-center">
           <ProductImages images={images} />
           <section className="content">
-            <h2>Kimono</h2>
+            <h2 className="main-title">Kimono</h2>
             <Stars stars={stars} reviews={reviews} />
             <h5 className="price">200,00 </h5>
             <p className="desc">

@@ -8,8 +8,8 @@ const Services = () => {
       <div className="section-center">
         <article className="header">
           <h3>
-            custom furniture <br />
-            built only for you
+            Roupas sob medida <br />
+            feitas para você
           </h3>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non dolor
@@ -41,7 +41,7 @@ const Wrapper = styled.section`
   }
   padding: 5rem 0;
 
-  background: var(--clr-primary-10);
+  background: var(--sch-clr-1);
 
   .header h3 {
     margin-bottom: 2rem;
@@ -57,7 +57,7 @@ const Wrapper = styled.section`
     gap: 2.5rem;
   }
   .service {
-    background: var(--clr-primary-7);
+    background: var(--sch-clr-8);
     text-align: center;
     padding: 2.5rem 2rem;
     border-radius: var(--radius);
@@ -92,6 +92,7 @@ const Wrapper = styled.section`
   }
   @media (min-width: 1280px) {
     padding: 0;
+    height: 25rem;
     .section-center {
       transform: translateY(5rem);
     }

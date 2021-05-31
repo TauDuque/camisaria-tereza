@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@200;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700&family=Prompt:wght@200;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@200;400;500&family=Raleway:wght@200;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poor+Story&display=swap");
 /*
 =============== 
 Variables
@@ -5,6 +12,30 @@ Variables
 */
 
 :root {
+  /* fontes  */
+  --font-cate-1: "Prompt", sans-serif;
+  --font-cate-2: "Nunito Sans", sans-serif;
+  --font-cate-3: "Raleway", sans-serif;
+  --font-cate-4: "Oswald", sans-serif;
+  --font-cate-5: "Volkhov", serif;
+  --font-cate-6: "Nothing You Could Do", cursive;
+  --font-cate-7: "Poor Story", cursive;
+  /* scheme colors */
+  --sch-clr-1: #f3f3f3;
+  --sch-clr-2: #fdf8f5;
+  --sch-clr-3: #e8cebf;
+  --sch-clr-4: #eefbfb;
+  --sch-clr-5: #4da8da;
+  --sch-clr-6: #ffdf6c;
+  --sch-clr-7: #e5eaf5;
+  --sch-clr-8: #ffb766;
+  --sch-clr-9: #e1b382;
+  --sch-clr-10: #c89666;
+  --sch-clr-12: #2d545e;
+  --sch-clr-13: #12343b;
+  --sch-clr-14: #fff5d7;
+  --sch-clr-15: #feb300;
+  --sch-clr-16: #f95d9b;
   /*  logo colors */
   --logo-clr-1: hsl(11, 100%, 48%);
   --logo-clr-2: hsl(14, 92%, 51%);
@@ -72,7 +103,7 @@ Global Styles
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  background: var(--clr-white);
+  background: var(--sch-clr-14);
   color: var(--clr-black);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -181,8 +212,8 @@ p {
 
 .btn {
   text-transform: uppercase;
-  background: var(--clr-primary-5);
-  color: var(--clr-primary-10);
+  background-color: var(--sch-clr-8);
+  color: var(--clr-green-dark);
   padding: 0.375rem 0.75rem;
   letter-spacing: var(--spacing);
   display: inline-block;
@@ -215,4 +246,9 @@ p {
 }
 .page {
   min-height: calc(100vh - (20vh + 10rem));
+}
+
+.main-title {
+  font-family: var(--font-cate-4);
+  font-size: 4rem;
 }
