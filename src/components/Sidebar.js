@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo.svg";
+import tere_logo from "../assets/tere_logo.jpg";
 import { Link } from "react-router-dom";
 import { useProductsContext } from "../context/products_context";
 import { FaTimes } from "react-icons/fa";
