@@ -12,7 +12,7 @@ const Contact = () => {
             eum doloribus cupiditate assumenda iusto. Voluptates eius reiciendis
             reprehenderit nulla modi!
           </p>
-          <form className="contact">
+          <form className="contact-form">
             <input
               type="email"
               className="form-input"
@@ -38,10 +38,8 @@ const Wrapper = styled.section`
     color: var(--clr-grey-5);
   }
   .contact-form {
-    width: 90vw;
-    max-width: 500px;
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 200px auto;
   }
 
   .form-input,
@@ -83,6 +81,10 @@ const Wrapper = styled.section`
       align-items: center;
       gap: 8rem;
       margin-top: 2rem;
+    }
+    .contact-form {
+      width: 90vw;
+      max-width: 500px;
     }
     p {
       margin-bottom: 0;

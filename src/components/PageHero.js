@@ -17,9 +17,9 @@ const PageHero = ({ title, product }) => {
 };
 
 const Wrapper = styled.section`
-  width: 97.8%;
+  width: 99%;
   min-height: 12vh;
-  margin: 0 15px;
+  margin: 0 1px;
   display: flex;
   align-items: center;
   background-color: var(--sch-clr-6);
@@ -33,6 +33,10 @@ const Wrapper = styled.section`
   }
   a:hover {
     color: var(--clr-primary-1);
+  }
+  @media (min-width: 992px) {
+    width: 97.8%;
+    margin: 0 15px;
   }
 `;
 

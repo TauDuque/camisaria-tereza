@@ -39,7 +39,6 @@ const Nav = () => {
 };
 
 const NavContainer = styled.nav`
-  height: 7rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,7 +47,7 @@ const NavContainer = styled.nav`
     background: var(--sch-clr-13);
     height: 100px;
     width: 99vw;
-    margin: 0 15px;
+    margin: 0 0;
   }
   .nav-header {
     display: flex;
@@ -57,8 +56,8 @@ const NavContainer = styled.nav`
     img {
       height: 75px;
       width: 175px;
-      margin-left: 40px;
-      margin-top: 2px;
+      margin-left: 20px;
+      margin-top: 8px;
       object-fit: cover;
     }
   }
@@ -67,6 +66,7 @@ const NavContainer = styled.nav`
     border: transparent;
     color: var(--clr-primary-5);
     cursor: pointer;
+    margin-right: 10px;
     svg {
       font-size: 2rem;
     }
@@ -78,6 +78,7 @@ const NavContainer = styled.nav`
     display: none;
   }
   @media (min-width: 992px) {
+    height: 7rem;
     .nav-toggle {
       display: none;
     }
@@ -85,6 +86,13 @@ const NavContainer = styled.nav`
       display: grid;
       grid-template-columns: auto 1fr auto;
       align-items: center;
+      margin: 0 15px;
+    }
+    .nav-header {
+      img {
+        margin-left: 40px;
+        margin-top: 2px;
+      }
     }
     .nav-links {
       display: flex;
