@@ -8,7 +8,7 @@ import infantil from "../assets/5-infantil-1.jpg";
 export const links = [
   {
     id: 1,
-    text: "home",
+    text: "Início",
     url: "/",
   },
   {
@@ -29,7 +29,6 @@ export const services = [
     icon: <ImScissors />,
     title: "conteito",
     text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi",
-   
   },
   {
     id: 2,

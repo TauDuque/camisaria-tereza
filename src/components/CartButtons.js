@@ -11,7 +11,7 @@ const CartButtons = () => {
   return (
     <Wrapper className="cart-btn-wrapper">
       <Link to="/cart" className="cart-btn" onClick={closeSidebar}>
-        Cart
+        Carrinho
         <span className="cart-container">
           <FaShoppingCart />
           <span className="cart-value">12</span>
@@ -26,6 +26,7 @@ const CartButtons = () => {
 
 const Wrapper = styled.div`
   display: grid;
+  gap: 20px;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   width: 225px;

@@ -16,7 +16,7 @@ const Nav = () => {
       <div className="nav-center">
         <div className="nav-header">
           <Link to="/">
-            <img src={tere_logo} alt="comfy sloth" />
+            <img src={tere_logo} alt="logo Camisaria Tereza" />
           </Link>
           <button type="button" className="nav-toggle" onClick={openSidebar}>
             <FaBars />
@@ -84,7 +84,7 @@ const NavContainer = styled.nav`
     }
     .nav-center {
       display: grid;
-      grid-template-columns: auto 1fr auto;
+      grid-template-columns: auto 815px auto;
       align-items: center;
       margin: 0 15px;
     }

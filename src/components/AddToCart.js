@@ -1,16 +1,17 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import { Link, useParams, useHistory } from "react-router-dom";
 import { FaCheck } from "react-icons/fa";
 import { useCartContext } from "../context/cart_context";
 import AmountButtons from "./AmountButtons";
 
-const AddToCart = ({ product }) => {
-  const { id, stock, colors } = product;
+const AddToCart = ({ colors, item }) => {
+  const { addToCart } = useCartContext();
+  const { id } = useParams();
 
+  const stock = 5;
   const [mainColor, setMainColor] = useState(colors[0]);
   const [amount, setAmount] = useState(1);
-
   const increase = () => {
     setAmount((lastAmount) => {
       let newAmount = lastAmount + 1;
@@ -36,17 +37,15 @@ const AddToCart = ({ product }) => {
       <div className="colors">
         <span>colors: </span>
         <div>
-          {colors.map((color, index) => {
+          {colors.map((cor, index) => {
             return (
               <button
                 key={index}
-                style={{ background: color }}
-                className={`${
-                  mainColor === color ? "color-btn active" : "color-btn"
-                }`}
-                onClick={() => setMainColor(color)}
+                className={mainColor === cor ? "color-btn active" : "color-btn"}
+                style={{ background: cor }}
+                onClick={() => setMainColor(cor)}
               >
-                {mainColor === color ? <FaCheck /> : null}
+                {mainColor === cor ? <FaCheck /> : null}
               </button>
             );
           })}
@@ -58,7 +57,11 @@ const AddToCart = ({ product }) => {
           decrease={decrease}
           increase={increase}
         />
-        <Link to="/cart" className="btn">
+        <Link
+          to="/cart"
+          className="btn"
+          onClick={() => addToCart(id, mainColor, amount, item)}
+        >
           add to cart
         </Link>
       </div>

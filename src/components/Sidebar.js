@@ -59,7 +59,6 @@ const SidebarContainer = styled.div`
     color: var(--clr-primary-5);
     transition: var(--transition);
     cursor: pointer;
-    color: var(--clr-red-dark);
     margin-top: 0.2rem;
   }
   .close-btn:hover {
@@ -78,7 +77,7 @@ const SidebarContainer = styled.div`
     font-size: 1rem;
     text-transform: capitalize;
     padding: 1rem 1.5rem;
-    color: var(--clr-grey-3);
+    color: var(--clr-white);
     transition: var(--transition);
     letter-spacing: var(--spacing);
   }
@@ -96,7 +95,7 @@ const SidebarContainer = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    background: var(--clr-white);
+    background: var(--sch-clr-13);
     transition: var(--transition);
     transform: translate(-100%);
     z-index: -1;
@@ -106,7 +105,7 @@ const SidebarContainer = styled.div`
     z-index: 999;
   }
   .cart-btn-wrapper {
-    margin: 2rem auto;
+    margin: 2rem;
   }
   @media screen and (min-width: 992px) {
     .sidebar {

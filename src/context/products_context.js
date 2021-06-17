@@ -38,7 +38,7 @@ export const ProductsProvider = ({ children }) => {
     dispatch({ type: SIDEBAR_CLOSE });
   };
 
-  const fetchProducts = async (teresaproducts) => {
+  const fetchProducts = (teresaproducts) => {
     dispatch({ type: GET_PRODUCTS_BEGIN });
     try {
       const products = teresaproducts;
@@ -48,10 +48,10 @@ export const ProductsProvider = ({ children }) => {
     }
   };
 
-  const fetchSingleProduct = async () => {
+  const fetchSingleProduct = (teresaproducts) => {
     dispatch({ type: GET_SINGLE_PRODUCT_BEGIN });
     try {
-      const singleProduct = teresa_single_products;
+      const singleProduct = teresaproducts;
       dispatch({ type: GET_SINGLE_PRODUCT_SUCCESS, payload: singleProduct });
     } catch (error) {
       dispatch({ type: GET_SINGLE_PRODUCT_ERROR });

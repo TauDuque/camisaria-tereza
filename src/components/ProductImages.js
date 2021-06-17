@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { teresa_single_products } from "../utils/teresa-single-products";
-const ProductImages = () => {
-  const [main, setMain] = useState(teresa_single_products[0]);
+
+const ProductImages = ({ image }) => {
+  const [main, setMain] = useState(image);
   return (
     <Wrapper>
-      <img src={main.url} alt="main" className="main" />
+      <img src={main} alt="main" className="main" />
       <div className="gallery">
         {teresa_single_products.map((image, index) => {
           return (
@@ -13,7 +14,7 @@ const ProductImages = () => {
               src={image.url}
               alt={image.filename}
               key={index}
-              onClick={() => setMain(teresa_single_products[index])}
+              onClick={() => setMain(image.url)}
               className={`${image.url === main.url ? "active" : null}`}
             />
           );

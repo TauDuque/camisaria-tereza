@@ -8,14 +8,14 @@ const ProductList = () => {
   if (products.length < 1) {
     return (
       <h5 style={{ textTransform: "none" }}>
-        Sorry, no products matched your search...
+        Desculpe, nenhum produto correspondente...
       </h5>
     );
   }
   if (grid_view === false) {
     return <ListView products={products} />;
   }
-  return <GridView products={products}>product list</GridView>;
+  return <GridView products={products}>lista de produtos</GridView>;
 };
 
 export default ProductList;

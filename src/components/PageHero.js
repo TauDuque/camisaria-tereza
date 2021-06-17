@@ -3,7 +3,6 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import bg_pattern3 from "../assets/bg_pattern-3.jpg";
 const PageHero = ({ title, product }) => {
-  console.log(title);
   return (
     <Wrapper>
       <div className="section-center">
