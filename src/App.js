@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Navbar, Sidebar, Footer } from "./components";
+import { Navbar, Sidebar, Footer, CategoryFeature } from "./components";
 
 import styled from "styled-components";
 import {
@@ -31,6 +31,9 @@ function App() {
         </Route>
         <Route exact path="/products">
           <Products />
+        </Route>
+        <Route exact path="/categoryfeature">
+          <CategoryFeature />
         </Route>
         <Route exact path="/products/:id" children={<SingleProduct />} />
         <Route exact path="/checkout">

@@ -20,9 +20,9 @@ const initialState = {
   sort: "name-a",
   filters: {
     text: "",
-    category: "all",
-    tecido: "all",
-    color: "all",
+    category: "tudo",
+    tecido: "tudo",
+    color: "tudo",
     shipping: false,
     price: 0,
     min_price: 0,

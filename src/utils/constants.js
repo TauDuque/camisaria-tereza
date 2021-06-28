@@ -5,6 +5,23 @@ import camisas from "../assets/camisas.jpg";
 import saias from "../assets/saias.jpg";
 import { ImScissors } from "react-icons/im";
 import infantil from "../assets/5-infantil-1.jpg";
+import {
+  agulha_icn,
+  batacanga_icn,
+  blusa_icn,
+  cadibe_icn,
+  costura_1_icn,
+  costura_2_icn,
+  costura_3_icn,
+  family_icn,
+  infantil_icn,
+  kimono_icn,
+  maquina_icn,
+  paleto_icn,
+  saia_icn,
+  vestido_icn,
+  camisa_icn,
+} from "../assets/icons";
 export const links = [
   {
     id: 1,
@@ -26,21 +43,21 @@ export const links = [
 export const services = [
   {
     id: 1,
-    icon: <ImScissors />,
-    title: "conteito",
-    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi",
+    icon: costura_2_icn,
+    title: "Diversos tipos de tecido",
+    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea.",
   },
   {
     id: 2,
-    icon: <GiSewingNeedle />,
-    title: "visão",
-    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi",
+    icon: maquina_icn,
+    title: "Tudo autoral e autêntico",
+    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea.",
   },
   {
     id: 3,
-    icon: <GiLoincloth />,
-    title: "historia",
-    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi",
+    icon: family_icn,
+    title: "Também oferecemos roupas infantis",
+    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea.",
   },
 ];
 
@@ -59,6 +76,45 @@ export const categorias_img = [
   },
 ];
 
-export const products_url = "https://course-api.com/react-store-products";
-
-export const single_product_url = `https://course-api.com/react-store-single-product?id=`;
+export const categorias_tipos = [
+  {
+    id: 1,
+    nome: "camisas",
+    icone: camisa_icn,
+  },
+  {
+    id: 2,
+    nome: "bata-cangas",
+    icone: batacanga_icn,
+  },
+  {
+    id: 3,
+    nome: "blusas",
+    icone: blusa_icn,
+  },
+  {
+    id: 4,
+    nome: "infantil",
+    icone: infantil_icn,
+  },
+  {
+    id: 5,
+    nome: "kimonos",
+    icone: kimono_icn,
+  },
+  {
+    id: 6,
+    nome: "saias",
+    icone: saia_icn,
+  },
+  {
+    id: 7,
+    nome: "vestidos",
+    icone: vestido_icn,
+  },
+  {
+    id: 8,
+    nome: "jaqueta",
+    icone: paleto_icn,
+  },
+];

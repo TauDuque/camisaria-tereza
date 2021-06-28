@@ -69,19 +69,19 @@ const filter_reducer = (state, action) => {
       });
     }
     //category
-    if (category !== "all") {
+    if (category !== "tudo") {
       tempProducts = tempProducts.filter(
         (product) => product.category === category
       );
     }
     // tecido
-    if (tecido !== "all") {
+    if (tecido !== "tudo") {
       tempProducts = tempProducts.filter(
         (product) => product.tecido === tecido
       );
     }
     //colors
-    if (color !== "all") {
+    if (color !== "tudo") {
       tempProducts = tempProducts.filter((product) => {
         return product.colors.find((cor) => cor === color);
       });
@@ -102,9 +102,9 @@ const filter_reducer = (state, action) => {
       filters: {
         ...state.filters,
         text: "",
-        category: "all",
-        tecido: "all",
-        color: "all",
+        category: "tudo",
+        tecido: "tudo",
+        color: "tudo",
         shipping: false,
         price: state.filters.max_price,
       },

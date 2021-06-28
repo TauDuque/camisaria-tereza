@@ -22,7 +22,7 @@ const Services = () => {
             const { id, icon, title, text } = service;
             return (
               <article key={id} className="service">
-                <span className="icon">{icon}</span>
+                <img src={icon} alt="" className="icon" />
                 <h4>{title}</h4>
                 <p>{text}</p>
               </article>
@@ -78,6 +78,10 @@ const Wrapper = styled.section`
     svg {
       font-size: 2rem;
     }
+  }
+  .icon {
+    height: 70px;
+    padding: 10px;
   }
   @media (min-width: 992px) {
     .header {
