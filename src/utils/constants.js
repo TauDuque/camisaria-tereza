@@ -79,17 +79,17 @@ export const categorias_img = [
 export const categorias_tipos = [
   {
     id: 1,
-    nome: "camisas",
+    nome: "camisa",
     icone: camisa_icn,
   },
   {
     id: 2,
-    nome: "bata-cangas",
+    nome: "bata",
     icone: batacanga_icn,
   },
   {
     id: 3,
-    nome: "blusas",
+    nome: "blusa",
     icone: blusa_icn,
   },
   {
@@ -99,17 +99,17 @@ export const categorias_tipos = [
   },
   {
     id: 5,
-    nome: "kimonos",
+    nome: "kimono",
     icone: kimono_icn,
   },
   {
     id: 6,
-    nome: "saias",
+    nome: "saia",
     icone: saia_icn,
   },
   {
     id: 7,
-    nome: "vestidos",
+    nome: "vestido",
     icone: vestido_icn,
   },
   {

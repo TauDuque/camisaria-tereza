@@ -58,6 +58,10 @@ import {
   Vestido4_3,
   Vestido4_4,
   Vestido4_5,
+  jaqueta_1,
+  jaqueta_2,
+  blusa_1,
+  blusa_2,
 } from "../assets";
 
 export const teresaproducts = [
@@ -330,6 +334,30 @@ export const teresaproducts = [
     description:
       "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
     category: "vestido",
+    shipping: true,
+  },
+  {
+    id: "recQqMf6koidUcqp0",
+    name: "Moletom",
+    price: 25999,
+    image: blusa_1,
+    colors: ["#ff0000", "#00ff00", "#0000ff"],
+    tecido: "lã",
+    description:
+      "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
+    category: "blusa",
+    shipping: true,
+  },
+  {
+    id: "recKkNf9koidBcqd0",
+    name: "Cobertor-casaco",
+    price: 25999,
+    image: jaqueta_1,
+    colors: ["#ff0000", "#00ff00", "#0000ff"],
+    tecido: "lã",
+    description:
+      "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
+    category: "jaqueta",
     shipping: true,
   },
 ];

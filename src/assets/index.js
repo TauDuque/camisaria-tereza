@@ -57,6 +57,10 @@ import Vestido4_2 from "./4-vestido-2.jpg";
 import Vestido4_3 from "./4-vestido-3.jpg";
 import Vestido4_4 from "./4-vestido-4.jpg";
 import Vestido4_5 from "./4-vestido-5.jpg";
+import blusa_1 from "./blusa-1.jpeg";
+import blusa_2 from "./blusa-2.jpeg";
+import jaqueta_1 from "./jaqueta-1.jpeg";
+import jaqueta_2 from "./jaqueta-2.jpeg";
 
 export {
   BataCanga1_1,
@@ -118,4 +122,8 @@ export {
   Vestido4_3,
   Vestido4_4,
   Vestido4_5,
+  blusa_1,
+  blusa_2,
+  jaqueta_1,
+  jaqueta_2,
 };

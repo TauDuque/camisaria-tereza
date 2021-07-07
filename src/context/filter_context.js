@@ -63,7 +63,9 @@ export const FilterProvider = ({ children }) => {
     let name = e.target.name;
     let value = e.target.value;
     if (name === "category") {
-      value = e.target.textContent;
+      console.log(value);
+      console.log(name);
+      value = e.target.value;
     }
     if (name === "color") {
       value = e.target.dataset.color;

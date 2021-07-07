@@ -12,3 +12,10 @@ export const getUniqueValues = (data, type) => {
   }
   return ["tudo", ...new Set(unique)];
 };
+
+export const getValues = (data, type) => {
+  let unique = data.map((uni) => uni[type]);
+  return unique.filter(function (el, i) {
+    return unique.indexOf(el) === i;
+  });
+};

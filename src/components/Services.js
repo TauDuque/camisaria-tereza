@@ -80,7 +80,7 @@ const Wrapper = styled.section`
     }
   }
   .icon {
-    height: 70px;
+    height: 85px;
     padding: 10px;
   }
   @media (min-width: 992px) {

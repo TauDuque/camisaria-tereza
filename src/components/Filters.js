@@ -49,7 +49,8 @@ const Filters = () => {
                 return (
                   <button
                     key={index}
-                    onClick={updateFilters}
+                    value={cat}
+                    onClick={(e) => updateFilters(e)}
                     name="category"
                     type="button"
                     className={`${
